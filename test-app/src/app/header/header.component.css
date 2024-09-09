@@ -1,4 +1,6 @@
-
+.body{
+    padding: 30px;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -48,31 +50,50 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #A9CCE3;
+text-decoration: underline greenyellow;
 }
-
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
+nav ul li a::after {
+    text-decoration: underline greenyellow;
     }
-    nav ul {
-        flex-direction: column;
-        width: 100%;
-    }
-    nav ul li {
-        text-align: center;
-        width: 100%;
-    }
-    .logo, .user-icon {
-        margin: 10px 0;
-    }
-}
-
-@media (max-width: 360px) {
-    .navbar {
-        padding: 10px;
-    }
-    nav ul li {
-        padding: 8px;
-    }
-}
+    @media (max-width: 768px) {
+        .social-media a {
+          margin: 0 5px;
+        }
+        
+        .social-media img {
+          width: 30px;
+          height: 30px;
+        }
+      
+        .footer-links {
+          flex-direction: column;
+          margin-bottom: 20px;
+        }
+      
+        .footer-links a {
+          margin: 5px 0;
+        }
+      
+        .footer-links span {
+          display: none; /* Hide the separators on small screens */
+        }
+      
+        footer {
+          padding: 15px;
+        }
+      }
+      
+      @media (max-width: 480px) {
+        .social-media img {
+          width: 25px;
+          height: 25px;
+        }
+      
+        .footer-links a {
+          font-size: 12px;
+        }
+      
+        copyright {
+          font-size: 10px;
+        }
+      }
