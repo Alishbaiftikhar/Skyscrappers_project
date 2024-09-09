@@ -95,7 +95,7 @@ button:hover {
     .hero {
         flex-direction: column; /* Stack the content and carousel vertically */
         align-items: center;
-        gap: 20px;
+        gap: 125px;
     }
 
     .carousel {
@@ -121,7 +121,7 @@ button:hover {
     .hero {
         flex-direction: column; /* Stack the content and carousel vertically */
         align-items: center;
-        gap: 20px;
+        gap: 125px;
     }
 
     .content {
