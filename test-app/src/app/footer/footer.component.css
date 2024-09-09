@@ -47,3 +47,55 @@ footer {
     font-size: 12px;
     color: #666;
   }
+
+@media (max-width: 768px) {
+    .social-media img {
+        width: 30px;
+        height: 30px; /* Reduce the size of social media icons on smaller screens */
+    }
+
+    .footer-links a {
+        font-size: 12px; /* Reduce the font size of links on smaller screens */
+        margin: 0 5px;
+    }
+
+    footer {
+        padding: 15px 0; /* Reduce padding for mobile */
+    }
+
+    .footer-links {
+        margin-bottom: 5px; /* Less spacing between footer links and copyright */
+    }
+}
+
+@media (max-width: 480px) {
+    .social-media {
+        margin-bottom: 10px;
+    }
+
+    .social-media a {
+        margin: 0 5px; /* Reduce margin between social media icons */
+    }
+
+    .footer-links {
+        flex-direction: column; /* Stack links vertically */
+        margin-bottom: 5px;
+    }
+
+    .footer-links a {
+        display: block; /* Make each link take up the full width */
+        margin: 5px 0;
+    }
+
+    .footer-links span {
+        display: none; /* Remove separators for mobile */
+    }
+
+    footer {
+        padding: 10px 0; /* Reduce padding for smaller screens */
+    }
+
+    .copyright {
+        font-size: 11px; /* Further reduce font size for copyright on mobile */
+    }
+}

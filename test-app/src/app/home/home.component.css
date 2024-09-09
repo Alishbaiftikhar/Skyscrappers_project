@@ -129,7 +129,7 @@ button:hover {
     }
 
     .carousel {
-        width: 200px;
+        width: 0px;
         height: 200px;
     }
 
@@ -154,7 +154,7 @@ button:hover {
 
 @media (max-width: 480px) {
     .carousel {
-        width: 150px;
+        width: 0px;
         height: 150px;
     }
 
